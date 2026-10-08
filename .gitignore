@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Secretos y configuración local
+.env
+*.key
+*.pem
+secrets.*
+
+# Datos y modelos pesados (GitHub rechaza archivos > 100 MB)
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.weights
+*.ckpt
+data/raw/
+datasets/
+runs/
+
+# ROS / C / C++ / Firmware
+build/
+devel/
+install/
+log/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+.pio/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
